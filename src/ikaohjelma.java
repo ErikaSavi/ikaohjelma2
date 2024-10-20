@@ -16,8 +16,7 @@ public class ikaohjelma {
         } else {
             System.out.println("Olet aikuinen");
         }
-
-        // Laajenna tehtävää niin, että aikuisille ilmoitetaan tasavuosikymmenistä
+         // Laajenna tehtävää niin, että aikuisille ilmoitetaan tasavuosikymmenistä
         // onnentoivotus
         if (ika == 10 || ika == 20 || ika == 20 || ika == 30 || ika == 40 || ika == 50 || ika == 60 || ika == 70
                 || ika == 80 || ika == 90) {
@@ -31,7 +30,7 @@ public class ikaohjelma {
             System.out.println("Onnea tasavuosista!");
         }
 
-        // Tarkenna eläkeasioita siten, että yli 58-vuotiaille kerro, että he voivat
+         // Tarkenna eläkeasioita siten, että yli 58-vuotiaille kerro, että he voivat
         // mennä varhaiseläkkeelle.
 
         if (ika >= 58 && ika < 64) {
@@ -42,6 +41,8 @@ public class ikaohjelma {
             System.out.println("hyviä eläkepäiviä");
         }
 
+
+        
 
     }
 }

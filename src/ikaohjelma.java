@@ -41,7 +41,7 @@ public class ikaohjelma {
             System.out.println("hyviä eläkepäiviä");
         }
 
-
+        // ikää voi muuttaa miten haluaa, jolloin tulostus on myös erinäköinen
         
 
     }

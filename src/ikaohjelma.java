@@ -30,6 +30,16 @@ public class ikaohjelma {
             System.out.println("Onnea tasavuosista!");
         }
 
+        // Tarkenna eläkeasioita siten, että yli 58-vuotiaille kerro, että he voivat
+        // mennä varhaiseläkkeelle.
+
+        if (ika >= 58 && ika < 64) {
+            System.out.println("voit jäädä varhaiseläkkeelle");
+        }
+
+        if (ika == 65) {
+            System.out.println("hyviä eläkepäiviä");
+        }
 
 
         
